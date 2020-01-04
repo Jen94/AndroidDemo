@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация Overlay с доп действиями" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='Не забудьте выдать права на Overlays (это можно сделать в разделе "простой Overlay")' />
+
+    <Button
+        android:id="@+id/buttonOpenOverlayWithActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open overlay" />
+
+    <Button
+        android:id="@+id/buttonCloseOverlayWithActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close overlay" />
+</LinearLayout>

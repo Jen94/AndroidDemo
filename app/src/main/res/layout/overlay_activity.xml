@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы простого Overlay + сервиса с listener'ом кликов по нему" />
+
+    <Button
+        android:id="@+id/buttonRequestPermissions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запросить права на Overlays" />
+
+    <Button
+        android:id="@+id/buttonDrawOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Draw overlay" />
+
+    <Button
+        android:id="@+id/buttonRemoveOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Overlay" />
+</LinearLayout>

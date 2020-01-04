@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Окно работы с БД Sqlite" />
+
+    <Button
+        android:id="@+id/buttonSaveToSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Записать данные в БД Sqlite" />
+
+    <Button
+        android:id="@+id/buttonReadFromSql"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Читать данные из Sqlite" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выводить данные в интерфейс здесь незачем: достаточно посмотреть в код, чтобы понять, как работать с базой данных" />
+</LinearLayout>

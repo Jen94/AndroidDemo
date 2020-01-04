@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация взаимодействия между двумя Activity" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity #2" />
+
+    <EditText
+        android:id="@+id/editTextTextToSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Input text here..." />
+
+    <Button
+        android:id="@+id/buttonSaveToPrefsAndClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Закрыть окно и сохранить результат в Shared Prefs" />
+
+    <Button
+        android:id="@+id/buttonSendToFirstAndClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Закрыть окно и отправить результат в предыдущее Activity" />
+
+</LinearLayout>

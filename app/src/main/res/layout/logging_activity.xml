@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логирование и падение приложения" />
+
+    <Button
+        android:id="@+id/buttonLogInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log info" />
+
+    <Button
+        android:id="@+id/buttonLogDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log debug" />
+
+    <Button
+        android:id="@+id/buttonLogError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log error" />
+
+    <Button
+        android:id="@+id/buttonCrashApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Разделить на ноль" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тег всех логов = MYDEMOAPP. Логи падения при делении на ноль искать по идентификатору приложения: com.my.demo" />
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Demo Application" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Часть 1" />
+
+    <Button
+        android:id="@+id/buttonShowToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Показать Toast" />
+
+    <Button
+        android:id="@+id/buttonInteractOtherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Взаимодействие с другим Activity" />
+
+    <Button
+        android:id="@+id/buttonSharedPrefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранение и восстановление настроек" />
+
+    <Button
+        android:id="@+id/buttonSimpleMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Простое меню" />
+
+    <Button
+        android:id="@+id/buttonFloatingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Всплывающее меню" />
+
+    <Button
+        android:id="@+id/buttonHardwareParams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Определение основных характеристик" />
+
+    <Button
+        android:id="@+id/buttonAudioPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Аудиоплеер" />
+
+    <Button
+        android:id="@+id/buttonWebBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Простой веб-браузер" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Часть 2" />
+
+    <Button
+        android:id="@+id/buttonBroadcastReceiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="broadcast receiver" />
+
+    <Button
+        android:id="@+id/buttonSimpleService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Простой сервис" />
+
+    <Button
+        android:id="@+id/buttonSimpleOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overlay: простые плавающие View" />
+
+    <Button
+        android:id="@+id/buttonShowNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вывод уведомлений" />
+
+    <Button
+        android:id="@+id/buttonServiceWithNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сервис с выводом уведомлений" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Часть 3" />
+
+    <Button
+        android:id="@+id/buttonSimpleElements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Основные элементы: button, checkbox..." />
+
+    <Button
+        android:id="@+id/buttonTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Таблица с данными" />
+
+    <Button
+        android:id="@+id/buttonTabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Окно с вкладками" />
+
+    <Button
+        android:id="@+id/buttonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вывод объектов-структур: пример с Fragment" />
+
+    <Button
+        android:id="@+id/buttonTableWithTambourine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вывод объектов-структур: пример с таблицей" />
+
+    <Button
+        android:id="@+id/buttonProcessActions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Обработка событий on(...)changed, onPause, onDestroy..." />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Часть 4" />
+
+    <Button
+        android:id="@+id/buttonHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отложенное выполнение: handler" />
+
+    <Button
+        android:id="@+id/buttonThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Параллельное выполнение: поток" />
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Повторяющееся выполнение: alarm" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Часть 5" />
+
+    <Button
+        android:id="@+id/buttonDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Работа с БД (SQLite)" />
+
+    <Button
+        android:id="@+id/buttonLogging"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логирование" />
+
+</LinearLayout>
+</ScrollView>

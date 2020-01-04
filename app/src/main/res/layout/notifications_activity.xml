@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы уведомлений" />
+
+    <Button
+        android:id="@+id/buttonCreateNotificationChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать канал уведомлений (однократно)" />
+
+    <Button
+        android:id="@+id/buttonSendNotify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить уведомление" />
+
+    <Button
+        android:id="@+id/buttonCloseAllNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Закрыть все уведомления" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.demo">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.AdditionalListenersActivity"></activity>
+        <activity android:name=".Activities.AlarmActivity"></activity>
+        <activity android:name=".Activities.AudioPlayerActivity"></activity>
+        <activity android:name=".Activities.FirstInteractingActivity"></activity>
+        <activity android:name=".Activities.FloatingMenuActivity"></activity>
+        <activity android:name=".Activities.HandlerActivity"></activity>
+        <activity android:name=".Activities.HardTableActivity"></activity>
+        <activity android:name=".Activities.HardwareParametersActivity"></activity>
+        <activity android:name=".Activities.SaveRestorePrefsActivity"></activity>
+        <activity android:name=".Activities.SecondInteractingActivity"></activity>
+        <activity android:name=".Activities.SimpleComponentsActivity"></activity>
+        <activity android:name=".Activities.SimpleFragmentActivity"></activity>
+        <activity android:name=".Activities.SimpleMenuActivity"></activity>
+        <activity android:name=".Activities.SimpleTableActivity"></activity>
+        <activity android:name=".Activities.DatabaseActivity"></activity>
+        <activity android:name=".Activities.ThreadActivity"></activity>
+        <activity android:name=".Activities.LoggingActivity"></activity>
+        <activity android:name=".Activities.WebViewActivity"></activity>
+        <activity android:name=".Activities.BroadcastReceiverActivity"></activity>
+        <activity android:name=".Activities.SimpleServiceActivity"></activity>
+        <activity android:name=".Activities.OverlayActivity"></activity>
+        <activity android:name=".Activities.NotificationsActivity"></activity>
+        <activity android:name=".Activities.ServiceWithNotificationsActivity"></activity>
+        <activity android:name=".Activities.TabsActivity"></activity>
+        <service android:name=".Services.TestServiceForeground" android:process=":MyServiceProcess"></service>
+        <service android:name=".Services.TestService"></service>
+        <service android:name=".Services.FloatingService"></service>
+        <service android:name=".Services.TestServiceWithNotifications"></service>
+        <receiver android:name=".Receivers.MyAlarmServiceReceiver"></receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы handler (отложенное выполнение)" />
+
+    <Button
+        android:id="@+id/buttonAddJobToHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить задачу в handler (отложенную на 5 сек)" />
+
+    <Button
+        android:id="@+id/buttonAddCycleToHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Циклическая задача в Handler" />
+
+    <Button
+        android:id="@+id/buttonRemoveAllTasksFromHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить все задачи из handler" />
+
+    <Button
+        android:id="@+id/buttonHandlerButthurt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить в handler задачу, которая вычисляется 10 секунд" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Последняя кнопка демонстрирует факт, что выполнение в handler на самом деле не является параллельным: нагрузив основной поток вычислениями, мы получили нерабочий интерфейс на все время выполнения задачи (10 секунд). Вывод - основной поток должен быть всегда доступен, и выполнять в нем можно только операции, работающие мгновенно. Для тяжелых задач есть отдельные потоки." />
+</LinearLayout>

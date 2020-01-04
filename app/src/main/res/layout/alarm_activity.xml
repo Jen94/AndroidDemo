@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы Alarm (отложенное выполнение)" />
+
+    <Button
+        android:id="@+id/buttonSetAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запланировать выполнение задачи (на самом деле отправку sendBroadcast) каждые 15 минут" />
+
+    <Button
+        android:id="@+id/buttonCancelAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отменить задачу" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:" />
+
+    <TextView
+        android:id="@+id/textViewAlarmStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Крайне важная штука - именно с помощью нее можно отправлять уведомления пользователю даже из закрытого состояния, не выводя иконку о работе в фоне." />
+
+    <Button
+        android:id="@+id/buttonCheckAlarmReceiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверить AlarmReceiver" />
+
+</LinearLayout>

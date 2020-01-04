@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы сервиса" />
+
+    <Button
+        android:id="@+id/buttonStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустить сервис" />
+
+    <Button
+        android:id="@+id/buttonStartForegroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустить Foreground сервис" />
+
+    <Button
+        android:id="@+id/buttonStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Остановить сервис" />
+
+    <Button
+        android:id="@+id/buttonStopForegroundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Остановить Foreground сервис" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="После запуска сервиса можно выйти из приложения и даже полностью закрыть его: сервис продолжит жить, пока не будет остановлен или пока не выполнится весь его код (в данном случае это бесконечный цикл, поэтому сам он не завершится никогда). *Гарантированно работает при выходе из приложения только Foreground сервис: он требует особого разрешения в манифесте и обязательного уведомления пользователя о своей работе" />
+
+    <Button
+        android:id="@+id/buttonSendBroadcastToService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить сообщение в сервис" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:" />
+
+    <TextView
+        android:id="@+id/textViewSimpleServiceStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

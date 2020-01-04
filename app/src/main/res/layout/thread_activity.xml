@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Демонстрация работы Thread (параллельное выполнение)" />
+
+    <Button
+        android:id="@+id/buttonStartThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Запустить поток с задачей, которая выполняется 10 секунд" />
+
+    <Button
+        android:id="@+id/buttonDemoThreadStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="УСТАНОВИТЬ RUNNING=TRUE и Запустить бесконечный поток, который остановится, когда значение RUNNING в shared_prefs станет равно FALSE" />
+
+    <Button
+        android:id="@+id/buttonResetSuperValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Установить RUNNING = FALSE" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Из демонстрации видно, что поток выполняется действительно параллельно - несмотря на то, что он был сильно нагружен 10 секунд - интерфейс программы не был заблокирован. Также поток нельзя завершить принудительно. Он может только завершиться сам, когда завершится выполнение его исходного кода. При бесконечных циклах требуется применение синхронизации, в данном случае - переменной running. Также здесь намеренно показана худшая практика передачи данных из потока - путем прямого взаимодействия с элементами интерфейса. Это работает, но так делать категорически нельзя - правильно организовывать обратную связь через Receiver, как показано в SimpleService" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:" />
+
+    <TextView
+        android:id="@+id/textViewThreadStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
